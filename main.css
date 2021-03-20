@@ -1,0 +1,46 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  line-height: 1.5;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background: url('assets/my-dream-beach.jpg') no-repeat center;
+  background-size: cover;
+  color: #333;
+}
+
+.wrapper {
+  padding:  0 1rem;
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 10px;
+  right: 10px;
+}
+
+.quote {
+  font-family: 'Dancing Script', cursive;
+  font-size: 3.5rem; 
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 1rem;
+}
+
+@media (max-width: 768px) {
+  
+  .quote {
+  font-size: 2rem; 
+}
+  
+  body {
+    background: url('assets/my-dream-beach.jpg') no-repeat 25% 75%;
+    background-size: cover;
+}
+
+}
