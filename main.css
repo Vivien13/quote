@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 html,
 body {
   margin: 0;
@@ -23,6 +27,7 @@ body {
   bottom: 0;
   left: 10px;
   right: 10px;
+  
 }
 
 .quote {
@@ -35,12 +40,31 @@ body {
 @media (max-width: 768px) {
   
   .quote {
-  font-size: 2rem; 
+    font-size: 2rem; 
 }
   
   body {
     background: url('assets/my-dream-beach.jpg') no-repeat 25% 75%;
     background-size: cover;
 }
+  
+  .wrapper {
+    bottom: 5px;
+  } 
 
 }
+
+.language-selector {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  display: table;
+  text-align: center;
+ }
+
+.language-selector img {
+  width: 1.25rem;
+  height: 1rem;
+  margin: .5em;
+}
+
